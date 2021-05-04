@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  margin: 0 16.5rem;
+  max-width: 150rem;
+}
+
+.btn-login {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  background: #FA5959;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
+  padding: 1.2rem 3.3rem;
+  border: none;
+}
+
+.navbar {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__contents {
+  display: flex;
+  align-items: center;
+}
+.navbar__content {
+  list-style: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #242a45;
+  margin-right: 4.4rem;
+}
+
+.header {
+  display: flex;
+  margin-top: 11rem;
+}
+.header__text-box {
+  margin-right: 6.5rem;
+  margin-top: 7rem;
+}
+.header__text-box h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -0.15px;
+  color: #242a45;
+  margin-bottom: 2.5rem;
+}
+.header__text-box p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.header__img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
