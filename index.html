@@ -38,10 +38,73 @@
       <img src="./images/illustration-hero.svg" alt="">
     </div>
   </header>
-  <section class="features">
-    
+  <section class="features container">
+    <h2>Features</h2>
+    <p>Our aim is to make it quick and easy for you to access your favourite websites. 
+      Your bookmarks sync between your devices so you can access them on the go.</p>
   </section>
- 
+  <!-- <main class="main">
+    <ul class="main__contents container">
+      <button class="main__content btn-change">Simple Bookmarking</button>
+      <button class="main__content btn-change">Speedy Searching</button>
+      <button class="main__content btn-change">Easy Sharing</button>
+    </ul>
+  </main> -->
+  <main class="operations container">
+    <div class="operations__tab-container">
+      <button class="btn-change btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">Simple Bookmarking</button>
+      <button class="btn-change btn operations__tab operations__tab--2 operations__tab--active" data-tab="2">Speedy Searching</button>
+      <button class="btn-change btn operations__tab operations__tab--3 operations__tab--active" data-tab="3">Easy Sharing</button>
+    </div>
+    <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <img src="./images/illustration-features-tab-1.svg" alt="">
+          </div>
+         <div class="operations__text-1">
+          <h5 class="operations__header">
+            Bookmark in one click
+          </h5>
+          <p class="operations__paragraph">
+            Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+          </p>
+          <button class="operations__btn btn-more">More Info</button>
+         </div>
+        </div>
+        <div
+        class="operations__content operations__content--2 operations__content--active"
+      >
+        <div class="operations__icon operations__icon--2">
+          <img src="./images/illustration-features-tab-2.svg" alt="">
+        </div>
+       <div class="operations__text-1">
+        <h5 class="operations__header">
+          Intelligent search
+        </h5>
+        <p class="operations__paragraph">
+          Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.        </p>
+        <button class="operations__btn btn-more">More Info</button>
+       </div>
+      </div>
+      <div
+      class="operations__content operations__content--3 operations__content--active"
+    >
+      <div class="operations__icon operations__icon--3">
+        <img src="./images/illustration-features-tab-3.svg" alt="">
+      </div>
+     <div class="operations__text-1">
+      <h5 class="operations__header">
+        Share your bookmarks
+      </h5>
+      <p class="operations__paragraph">
+        Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+      </p>
+      <button class="operations__btn btn-more">More Info</button>
+     </div>
+    </div>
+  </main>
+ <script src="./app.js"></script>
 </body>
 </html>
 

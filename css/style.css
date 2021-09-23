@@ -21,12 +21,53 @@ html {
   line-height: 17px;
   text-align: right;
   letter-spacing: 1.5px;
-  color: #FFFFFF;
-  background: #FA5959;
+  color: #ffffff;
+  background: #fa5959;
   box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
   border-radius: 5px;
   padding: 1.2rem 3.3rem;
   border: none;
+}
+
+.btn-change {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.533333px;
+  color: #242a45;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 9rem;
+}
+
+.btn-more {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+  background: #5267df;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
+  padding: 1.3rem 2.5rem;
+  border: none;
+}
+
+.operations__content--active {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  column-gap: 3rem;
+  row-gap: 0.5rem;
+}
+
+.operations__tab--active {
+  transform: translateY(-66%);
 }
 
 .navbar {
@@ -81,6 +122,82 @@ html {
 }
 .header__img {
   max-width: 100%;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+}
+.features h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #242a45;
+  margin-bottom: 1.5rem;
+}
+.features p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  width: 54rem;
+  height: 8.5rem;
+}
+
+.operations {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.operations__tab-container {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid rgba(171, 172, 179, 0.5);
+  padding-bottom: 3rem;
+  width: 73rem;
+  margin: 0 auto;
+}
+.operations__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+  padding-top: 7rem;
+}
+.operations__header {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  letter-spacing: -0.1px;
+  color: #242a45;
+  margin-bottom: 3.2rem;
+}
+.operations__paragraph {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  width: 44.5rem;
+  margin-bottom: 1.6rem;
+}
+.operations__text-1 {
+  margin-left: 12.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

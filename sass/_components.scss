@@ -1,17 +1,62 @@
 .btn-login {
-    font-family: "Rubik";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 17px;
-    text-align: right;
-    letter-spacing: 1.5px;
-    color: #FFFFFF;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 1.5px;
+  color: #ffffff;
 
-    background: #FA5959;
-    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
-    border-radius: 5px;
+  background: #fa5959;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
 
-    padding: 1.2rem 3.3rem;
-    border: none;
+  padding: 1.2rem 3.3rem;
+  border: none;
+}
+
+.btn-change {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.533333px;
+
+  color: #242a45;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 9rem;
+
+}
+
+.btn-more {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+
+  background: #5267df;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
+  padding: 1.3rem 2.5rem;
+
+  border: none;
+}
+
+.operations__content--active {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  column-gap: 3rem;
+  row-gap: 0.5rem;
+}
+
+.operations__tab--active {
+  transform: translateY(-66%);
 }
